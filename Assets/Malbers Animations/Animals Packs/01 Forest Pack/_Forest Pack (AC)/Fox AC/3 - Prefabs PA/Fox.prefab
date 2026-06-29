@@ -542,8 +542,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187629504942224}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.000000003671856, y: 0.0000000013140747, z: -0.33694983,
-    w: 0.94152266}
+  m_LocalRotation: {x: -0.000000003671856, y: 0.0000000013140747, z: -0.33694983, w: 0.94152266}
   m_LocalPosition: {x: -0.14511485, y: 0.000000076293944, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -713,10 +712,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239378021661920}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 40
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -834,8 +833,7 @@ MonoBehaviour:
     ConstantValue: {fileID: 0}
     Variable: {fileID: 11400000, guid: 377ebef3869d91f4897a407f8d345a9a, type: 2}
   clearPlayerInput: 0
-  InputActions: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e,
-    type: 3}
+  InputActions: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
   ActiveActionMapIndex: 1
   ShowMapIndex: 0
   debug: 0
@@ -854,11 +852,13 @@ MonoBehaviour:
       m_Actions: []
       m_Bindings: []
     buttons: []
+  OnMoveEvent:
+    m_PersistentCalls:
+      m_Calls: []
   m_MapButtons:
   - Index: 0
     Move: {fileID: 4671414830925844710, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
-    UpDown: {fileID: -8349872900466039380, guid: d65337a759dd2234caf37eb0e7c27d9e,
-      type: 3}
+    UpDown: {fileID: -8349872900466039380, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
     MoveMult:
       UseConstant: 1
       ConstantValue: {x: 1, y: 1, z: 1}
@@ -866,8 +866,7 @@ MonoBehaviour:
     ActionMap:
       m_Name: Gameplay
       m_Id: 265c38f5-dd18-4d34-b198-aec58e1627ff
-      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       m_Actions:
       - m_Name: Move
         m_Type: 0
@@ -1575,8 +1574,7 @@ MonoBehaviour:
         m_Action: Holster3
         m_Flags: 0
     buttons:
-    - reference: {fileID: -3278750929938707597, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -3278750929938707597, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -1670,8 +1668,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: -2167323346292599436, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -2167323346292599436, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -1741,8 +1738,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: -3420281069009276692, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -3420281069009276692, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -1812,8 +1808,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: 4743306732048843659, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: 4743306732048843659, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -1919,8 +1914,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: -8970038579521638608, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -8970038579521638608, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -2002,8 +1996,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: -1889586623032194627, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -1889586623032194627, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -2085,8 +2078,7 @@ MonoBehaviour:
       OnInputV2Value:
         m_PersistentCalls:
           m_Calls: []
-    - reference: {fileID: -7348635160181649274, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+    - reference: {fileID: -7348635160181649274, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       active:
         UseConstant: 1
         ConstantValue: 1
@@ -2178,8 +2170,7 @@ MonoBehaviour:
     ActionMap:
       m_Name: Riding
       m_Id: 45641ca9-0c7a-451f-aa9f-1d19e07e423e
-      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       m_Actions:
       - m_Name: Move
         m_Type: 0
@@ -2761,8 +2752,7 @@ MonoBehaviour:
     ActionMap:
       m_Name: UI
       m_Id: e1650ff1-4242-424f-b08e-42fe2cc0e001
-      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e,
-        type: 3}
+      m_Asset: {fileID: -944628639613478452, guid: d65337a759dd2234caf37eb0e7c27d9e, type: 3}
       m_Actions:
       - m_Name: Navigate
         m_Type: 2
@@ -3284,9 +3274,18 @@ MonoBehaviour:
       ConstantValue: 0
       Variable: {fileID: 0}
     Include: 1
+    States:
+      IDs: []
+      include: 1
+    stateQueue:
+      IDs: []
+      include: 1
+    disableStances:
+      IDs: []
+      include: 1
     states: []
-    StateQueue: []
     DisableStances: []
+    StateQueue: []
     OverrideCapsule: 0
     newCapsule:
       name: 
@@ -3345,13 +3344,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -3449,13 +3454,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -3568,7 +3579,6 @@ MonoBehaviour:
       conditions: []
       active: 0
     m_Source: {fileID: 0}
-    RandomAbilitiesIndex: 
     ActivationTime: 0
   - SelectedAbilityIndexEditor: 0
     ActiveAbilityConditions: []
@@ -3614,13 +3624,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -3718,13 +3734,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -3822,13 +3844,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -3941,7 +3969,6 @@ MonoBehaviour:
       conditions: []
       active: 0
     m_Source: {fileID: 0}
-    RandomAbilitiesIndex: 
     ActivationTime: 0
   - SelectedAbilityIndexEditor: 0
     ActiveAbilityConditions: []
@@ -3987,11 +4014,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4089,11 +4124,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4191,11 +4234,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4293,11 +4344,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4395,11 +4454,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4497,11 +4564,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 0
-        affectStates: []
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4614,7 +4689,6 @@ MonoBehaviour:
       conditions: []
       active: 0
     m_Source: {fileID: 0}
-    RandomAbilitiesIndex: 
     ActivationTime: 0
   - SelectedAbilityIndexEditor: 0
     ActiveAbilityConditions: []
@@ -4660,13 +4734,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4764,13 +4844,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4868,13 +4954,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -4972,13 +5064,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5076,13 +5174,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5180,13 +5284,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 080000000b000000
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5284,13 +5394,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 0b00000006000000
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5388,13 +5504,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 0800000006000000
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5492,13 +5614,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5596,13 +5724,19 @@ MonoBehaviour:
       m_stopAudio: 1
       modifier: {fileID: 0}
       Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
+        states:
+          IDs: []
+          include: 1
+        stances:
+          IDs: []
+          include: 1
         TransitionFrom: 
+        AbilityCondition:
+          conditions: []
+          active: 0
+        InterruptCondition:
+          conditions: []
+          active: 0
       Status: 0
       abilityTime:
         UseConstant: 1
@@ -5727,7 +5861,6 @@ MonoBehaviour:
       conditions: []
       active: 0
     m_Source: {fileID: 0}
-    RandomAbilitiesIndex: 
     ActivationTime: 0
   CloneStates: 1
   OverrideStartState: {fileID: 0}
@@ -6392,7 +6525,12 @@ MonoBehaviour:
     Variable: {fileID: 0}
   currentAnimTag: 0
   platform: {fileID: 0}
+  defaultPlatform:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
   MainCollider: {fileID: 0}
+  MainColliderColor: {r: 0, g: 1, b: 1, a: 0.2}
   colliders:
   - {fileID: 136922317115445556}
   - {fileID: 136676474035604836}
@@ -6542,6 +6680,18 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: 1
       Variable: {fileID: 0}
+    degenerate:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    can_Regenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    can_Degenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
     RegenRate:
       UseConstant: 1
       ConstantValue: 20
@@ -6551,10 +6701,6 @@ MonoBehaviour:
       ConstantValue: 5
       Variable: {fileID: 0}
     DegenWaitTime:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    degenerate:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
@@ -6679,6 +6825,18 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
+    degenerate:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    can_Regenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    can_Degenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
     RegenRate:
       UseConstant: 1
       ConstantValue: 2
@@ -6688,10 +6846,6 @@ MonoBehaviour:
       ConstantValue: 10
       Variable: {fileID: 0}
     DegenWaitTime:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    degenerate:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
@@ -6725,8 +6879,7 @@ MonoBehaviour:
           m_MethodName: State_Activate
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.StateID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -6806,6 +6959,18 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
+    degenerate:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    can_Regenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    can_Degenerate:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
     RegenRate:
       UseConstant: 1
       ConstantValue: 0
@@ -6815,10 +6980,6 @@ MonoBehaviour:
       ConstantValue: 0
       Variable: {fileID: 0}
     DegenWaitTime:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-    degenerate:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
@@ -6975,12 +7136,6 @@ MonoBehaviour:
   Default:
     name: 
     surface: {fileID: 0}
-    damageReaction:
-      reactions: []
-    criticalReaction:
-      reactions: []
-    damagerReaction:
-      reactions: []
     multiplier:
       UseConstant: 1
       ConstantValue: 0
@@ -6993,7 +7148,14 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
+    damageReaction:
+      reactions: []
+    criticalReaction:
+      reactions: []
+    damagerReaction:
+      reactions: []
     elements: []
+    Events: 0
     OnProfileEnter:
       m_PersistentCalls:
         m_Calls: []
@@ -7003,12 +7165,6 @@ MonoBehaviour:
   CurrentProfile:
     name: 
     surface: {fileID: 0}
-    damageReaction:
-      reactions: []
-    criticalReaction:
-      reactions: []
-    damagerReaction:
-      reactions: []
     multiplier:
       UseConstant: 1
       ConstantValue: 0
@@ -7021,7 +7177,14 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: 0
       Variable: {fileID: 0}
+    damageReaction:
+      reactions: []
+    criticalReaction:
+      reactions: []
+    damagerReaction:
+      reactions: []
     elements: []
+    Events: 0
     OnProfileEnter:
       m_PersistentCalls:
         m_Calls: []
@@ -7045,7 +7208,10 @@ MonoBehaviour:
         type: 0
         ID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
         abilityStatus: 0
-        Ability: -99
+        Ability:
+          UseConstant: 1
+          ConstantValue: -99
+          Variable: {fileID: 0}
         HasCoolDown: 1
         coolDown: 0
         AbilityTime: 3
@@ -7061,7 +7227,10 @@ MonoBehaviour:
         type: 0
         ID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
         abilityStatus: 0
-        Ability: -99
+        Ability:
+          UseConstant: 1
+          ConstantValue: -99
+          Variable: {fileID: 0}
         HasCoolDown: 1
         coolDown: 0
         AbilityTime: 3
@@ -7084,7 +7253,6 @@ MonoBehaviour:
     Variable: {fileID: 0}
   m_aimOrigin: {fileID: 6653856020807312376}
   m_Smoothness: 10
-  horizontalLerp: 10
   m_aimLayer:
     UseConstant: 1
     ConstantValue:
@@ -7112,6 +7280,14 @@ MonoBehaviour:
     UseConstant: 1
     ConstantValue: 0.2
     Variable: {fileID: 0}
+  m_AimHorizontalOffset:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  m_AimVerticalOffset:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
   m_cycles: 1
   m_screenCenter:
     UseConstant: 1
@@ -7133,6 +7309,11 @@ MonoBehaviour:
     ConstantValue: 0
     Variable: {fileID: 0}
   RayHits: 5
+  useAimAssist:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  UseRayCastAnimParam: 0
   OnAimRayTarget:
     m_PersistentCalls:
       m_Calls: []
@@ -7161,10 +7342,6 @@ MonoBehaviour:
   m_Animator: {fileID: 0}
   m_AimHorizontal: AimHorizontal
   m_AimVertical: AimVertical
-  AngleLerp:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
   EditorTab1: 0
 --- !u!114 &2967241024838805635
 MonoBehaviour:
@@ -7262,6 +7439,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
+  GlobalTargets: []
   EditorTabs: 0
   SelectedSet: 0
   references:
@@ -7292,10 +7470,15 @@ MonoBehaviour:
         TargetIndex: 0
         AnimParameter: 
         AnimParameterHash: 0
+        Tag: {fileID: 0}
+        showIndex: 1
         Offset: {x: 0, y: -90, z: -90}
         upVector: 0
         LocalUp: {x: 0, y: 0, z: 0}
         WorldUp: {fileID: 0}
+        rotationBlend: 1
+        RawAim: 0
+        Gizmos: 1
     - rid: 7842560675971334240
       type: {class: WeightAnimParam, ns: MalbersAnimations.IK, asm: MalbersAnimations}
       data:
@@ -7310,8 +7493,8 @@ MonoBehaviour:
         Active: 1
         Invert: 0
         States:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
+          IDs: []
+          include: 1
         Profile:
           UseConstant: 1
           ConstantValue: 0
@@ -7326,8 +7509,9 @@ MonoBehaviour:
       data:
         Active: 1
         Invert: 0
-        ExcludeAllModes: 1
-        Modes: []
+        Modes:
+          IDs: []
+          include: 1
         excludeAbilities: 0
         Abilities: 
 --- !u!1 &1250994230744922
@@ -7408,7 +7592,8 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     Variable: {fileID: 0}
-  Tags: []
+  Tags:
+    tags: []
   AttackDirection: 0
   triggerInteraction: 1
   owner: {fileID: 1239378021661920}
@@ -7658,8 +7843,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267672171181618}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000011920926, y: 0.000000029802315, z: -0.000000029802315,
-    w: 1}
+  m_LocalRotation: {x: -0.00000011920926, y: 0.000000029802315, z: -0.000000029802315, w: 1}
   m_LocalPosition: {x: 0.07036848, y: 0.033885688, z: -0.06445813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7932,8 +8116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459639944041698}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000010660486, y: 0.0000000015968181, z: -0.33694983,
-    w: 0.94152266}
+  m_LocalRotation: {x: 0.0000000010660486, y: 0.0000000015968181, z: -0.33694983, w: 0.94152266}
   m_LocalPosition: {x: -0.14511481, y: -0.000000114440915, z: -0.000000011920928}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8063,8 +8246,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622582781839540}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000014901154, y: -0.000000089406925, z: 0.0000002682208,
-    w: 1}
+  m_LocalRotation: {x: -0.00000014901154, y: -0.000000089406925, z: 0.0000002682208, w: 1}
   m_LocalPosition: {x: -0.07878358, y: 0.031438082, z: 0.4832227}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8184,8 +8366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655722712733596}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000017881389, y: -0.00000011920926, z: 0.000000029802315,
-    w: 1}
+  m_LocalRotation: {x: -0.00000017881389, y: -0.00000011920926, z: 0.000000029802315, w: 1}
   m_LocalPosition: {x: -0.07035484, y: 0.033884853, z: -0.06545803}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8634,7 +8815,8 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
     Variable: {fileID: 0}
-  Tags: []
+  Tags:
+    tags: []
   AttackDirection: 0
   triggerInteraction: 1
   owner: {fileID: 1239378021661920}
@@ -9054,6 +9236,8 @@ SkinnedMeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9075,9 +9259,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 4
   m_UpdateWhenOffscreen: 1
@@ -9515,8 +9701,16 @@ MonoBehaviour:
   Holder: {fileID: 1012472334859315164}
   PosOffset: {x: 0, y: 0, z: 0}
   RotOffset: {x: 0, y: 0, z: 0}
+  PickUpCondition:
+    conditions: []
+    active: 0
+  DropCondition:
+    conditions: []
+    active: 0
   extraHolders: []
-  Tags: []
+  Tags_Legacy: []
+  Tags:
+    tags: []
   Layer:
     UseConstant: 1
     ConstantValue:
@@ -9601,6 +9795,7 @@ MonoBehaviour:
   UseColliders: 1
   gizmoType: 0
   debugSize: 0.03
+  height: 2
   DebugColor: {r: 0.46818066, g: 0, b: 1, a: 0.105882354}
   DrawAxis: 0
   AxisSize: 0.65
@@ -9610,6 +9805,7 @@ MonoBehaviour:
   DrawLineTo: 0
   ConnectTo: {fileID: 0}
   Rect: {x: 1, y: 1, z: 1}
+  Center: {x: 0, y: 0, z: 0}
   FirstSearch: 1
 --- !u!1 &5371552793429020398
 GameObject:
@@ -9913,15 +10109,17 @@ MonoBehaviour:
   autoValidateDestination: 0
   startValidationMovementRange: 2
   maxNumValidationIterations: 4
-  StopAgentOn:
-  - {fileID: 11400000, guid: 8078fbdb01991b44b9c1351f444b5efe, type: 2}
-  - {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
-  - {fileID: 11400000, guid: 9ae07cd2f8f4c054687fecf634f8e5b3, type: 2}
+  StopAgentOn: []
+  stopAgentOn:
+    items:
+    - {fileID: 11400000, guid: 8078fbdb01991b44b9c1351f444b5efe, type: 2}
+    - {fileID: 11400000, guid: c44e7e8d6840aa243b6c33ec85052763, type: 2}
+    - {fileID: 11400000, guid: 9ae07cd2f8f4c054687fecf634f8e5b3, type: 2}
   waitTimeMult: 1
   UpdateAI: 0.2
   stoppingDistance: 0.6
   PointStoppingDistance: 0.6
-  additiveStopDistance: 0
+  selfRadius: 0.5
   slowingDistance: 1
   UseScale:
     UseConstant: 1
@@ -10134,6 +10332,8 @@ SkinnedMeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10155,9 +10355,11 @@ SkinnedMeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 4
   m_UpdateWhenOffscreen: 1
@@ -10363,6 +10565,9 @@ MonoBehaviour:
     ResponseGO:
       m_PersistentCalls:
         m_Calls: []
+    ResponseGOasT:
+      m_PersistentCalls:
+        m_Calls: []
     ResponseTransform:
       m_PersistentCalls:
         m_Calls: []
@@ -10464,6 +10669,9 @@ MonoBehaviour:
     ResponseGO:
       m_PersistentCalls:
         m_Calls: []
+    ResponseGOasT:
+      m_PersistentCalls:
+        m_Calls: []
     ResponseTransform:
       m_PersistentCalls:
         m_Calls: []
@@ -10531,8 +10739,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10559,8 +10766,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10589,6 +10795,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -10658,8 +10867,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10686,8 +10894,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10716,6 +10923,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -10785,8 +10995,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10818,6 +11027,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -10897,6 +11109,9 @@ MonoBehaviour:
     ResponseGO:
       m_PersistentCalls:
         m_Calls: []
+    ResponseGOasT:
+      m_PersistentCalls:
+        m_Calls: []
     ResponseTransform:
       m_PersistentCalls:
         m_Calls: []
@@ -10974,6 +11189,9 @@ MonoBehaviour:
     ResponseGO:
       m_PersistentCalls:
         m_Calls: []
+    ResponseGOasT:
+      m_PersistentCalls:
+        m_Calls: []
     ResponseTransform:
       m_PersistentCalls:
         m_Calls: []
@@ -11032,8 +11250,7 @@ MonoBehaviour:
           m_MethodName: State_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 9ae07cd2f8f4c054687fecf634f8e5b3,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: 9ae07cd2f8f4c054687fecf634f8e5b3, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.StateID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -11062,6 +11279,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -11131,8 +11351,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -11159,8 +11378,7 @@ MonoBehaviour:
           m_MethodName: Mode_Pin
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424,
-              type: 2}
+            m_ObjectArgument: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
             m_ObjectArgumentAssemblyTypeName: MalbersAnimations.ModeID, MalbersAnimations
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -11189,6 +11407,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -11280,6 +11501,9 @@ MonoBehaviour:
     ResponseGO:
       m_PersistentCalls:
         m_Calls: []
+    ResponseGOasT:
+      m_PersistentCalls:
+        m_Calls: []
     ResponseTransform:
       m_PersistentCalls:
         m_Calls: []
@@ -11369,6 +11593,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -11470,6 +11697,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     ResponseGO:
+      m_PersistentCalls:
+        m_Calls: []
+    ResponseGOasT:
       m_PersistentCalls:
         m_Calls: []
     ResponseTransform:
@@ -11667,6 +11897,7 @@ MonoBehaviour:
   SearchRadius: 2.41
   Distance: 1
   AlignTime: 0.2
+  Delay: 0
   FrontOffset: 0.15
   IgnoreClose: 1
   UseAITargetDistance: 1
@@ -11812,89 +12043,72 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4095688194215968}
     m_Modifications:
-    - target: {fileID: 106239878785055286, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 106239878785055286, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: Reference
       value: 
       objectReference: {fileID: 4730885494809484}
-    - target: {fileID: 2384505708074511614, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 2384505708074511614, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: Reference
       value: 
       objectReference: {fileID: 4095688194215968}
-    - target: {fileID: 3801744107920685821, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 3801744107920685821, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: aim
       value: 
       objectReference: {fileID: 6424556541697776}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6122682549223429215, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 6122682549223429215, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.421
       objectReference: {fileID: 0}
-    - target: {fileID: 6122682549223429215, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 6122682549223429215, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.418
       objectReference: {fileID: 0}
-    - target: {fileID: 7012364804966603296, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 7012364804966603296, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: text
       value: This GameObject gets active when the Ledge Grab State finds a valid
         Wall to Ledge Grab
       objectReference: {fileID: 0}
-    - target: {fileID: 9070712816583169273, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-        type: 3}
+    - target: {fileID: 9070712816583169273, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
       propertyPath: m_Name
       value: Player Core
       objectReference: {fileID: 0}
@@ -11907,14 +12121,12 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
 --- !u!4 &3338259277519663026 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 5205253120960956496, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
   m_PrefabInstance: {fileID: 7381161207256393698}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &5957599427863698719 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3801744107920685821, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 3801744107920685821, guid: 6d24e2fe6adb3b64fbd1ba6112e6a3f1, type: 3}
   m_PrefabInstance: {fileID: 7381161207256393698}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -11986,13 +12198,11 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 400e06051701a8c4998087ae421728e3, type: 3}
 --- !u!4 &7526022331711694053 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4445133339262844, guid: 400e06051701a8c4998087ae421728e3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 4445133339262844, guid: 400e06051701a8c4998087ae421728e3, type: 3}
   m_PrefabInstance: {fileID: 7529464134887234457}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &7529428667495791409 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1091566395842728, guid: 400e06051701a8c4998087ae421728e3,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 1091566395842728, guid: 400e06051701a8c4998087ae421728e3, type: 3}
   m_PrefabInstance: {fileID: 7529464134887234457}
   m_PrefabAsset: {fileID: 0}
