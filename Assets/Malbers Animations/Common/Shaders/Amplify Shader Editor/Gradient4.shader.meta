@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb6a586500ed0cd4faa6bbe87f4685d6
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 128568
+  packageName: 'Poly Art: Animal Forest Set'
+  packageVersion: 4.0a
+  assetPath: Assets/Malbers Animations/Common/Shaders/Amplify Shader Editor/Gradient4.shader
+  uploadId: 807602

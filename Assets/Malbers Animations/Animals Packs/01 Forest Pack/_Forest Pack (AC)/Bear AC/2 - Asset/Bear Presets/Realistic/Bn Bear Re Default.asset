@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9752e66000c12874890fb0ab6333c4c1, type: 3}
+  m_Name: Bn Bear Re Default
+  m_EditorClassIdentifier: 
+  BlendTime:
+    UseConstant: 1
+    ConstantValue: 1.5
+    Variable: {fileID: 0}
+  BlendCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  positions: 0
+  scales: 1
+  Bones:
+  - name: Root
+    Position: {x: 0.7820437, y: 0.00000023841858, z: -1.5247693}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Front Feet
+    Position: {x: 0, y: 0, z: 1.059}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Back Feet
+    Position: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Ring
+    Position: {x: 0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: CG
+    Position: {x: 0, y: 1.1600536, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Pelvis
+    Position: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Thigh
+    Position: {x: 0.0000003814697, y: 0.00000045776366, z: 0.28825027}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Calf
+    Position: {x: -0.74900013, y: -0.000000028610229, z: 0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Foot
+    Position: {x: -0.30186874, y: 0.000000038146972, z: -0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Toe0
+    Position: {x: -0.082931735, y: 0.14997205, z: 0.008356285}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Toe01
+    Position: {x: -0.05401716, y: 0.0000000023841857, z: -0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Thigh
+    Position: {x: -0.0000003814697, y: -0.0000003814697, z: -0.28825027}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Calf
+    Position: {x: -0.7490003, y: -0.000000038146972, z: 0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Foot
+    Position: {x: -0.30186877, y: 0.000000039339064, z: -0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Toe0
+    Position: {x: -0.08293174, y: 0.14997195, z: -0.008356247}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Toe01
+    Position: {x: -0.0540172, y: 0, z: 0.000000076293944}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Spine
+    Position: {x: -0.05196396, y: 0.16648193, z: -0.0000007384432}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Spine1
+    Position: {x: -0.35400802, y: -0.0002820587, z: -7.8289303e-10}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Spine2
+    Position: {x: -0.3540079, y: -0.00031654356, z: -8.7718943e-10}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Clavicle Extra L
+    Position: {x: -0.121053465, y: -0.0151017755, z: 0.20859215}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Clavicle Extra R
+    Position: {x: -0.121053465, y: -0.015100631, z: -0.2085921}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Clavicle
+    Position: {x: -0.11346855, y: 0.14088494, z: -0.0049082283}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L UpperArm
+    Position: {x: -0.24335612, y: -0.00000015258789, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Forearm
+    Position: {x: -0.6202711, y: 0, z: -0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Hand
+    Position: {x: -0.3950261, y: 0, z: 0.000000057220458}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Finger0
+    Position: {x: -0.076427564, y: -0.13111565, z: 0.008934689}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: L Finger01
+    Position: {x: -0.077508695, y: 0, z: 0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Neck
+    Position: {x: -0.3596816, y: 0.03594978, z: -0.000000015886034}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Head
+    Position: {x: -0.33311743, y: -0.000000076293944, z: -5.820766e-13}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Cheek L
+    Position: {x: 0.060951233, y: 0.4192607, z: -0.0052720993}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Cheek R
+    Position: {x: 0.06095108, y: 0.41926056, z: 0.0052744704}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eye Core L
+    Position: {x: 0.0018263244, y: 0.3125049, z: 0.08720903}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eye L
+    Position: {x: -0, y: 0.000000076293944, z: 0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eyelid Lower L
+    Position: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eyelid Upper L
+    Position: {x: -0, y: 0.00000015258789, z: 0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eye Core R
+    Position: {x: 0.0018263244, y: 0.31250533, z: -0.087207235}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eye R
+    Position: {x: -0, y: 0.000000076293944, z: -0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eyelid Lower R
+    Position: {x: 0.00000015258789, y: 0, z: 0.000000057220458}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Eyelid Upper R
+    Position: {x: -0, y: 0.000000076293944, z: 0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Jaw
+    Position: {x: 0.05691864, y: 0.06877838, z: 0.00000049849956}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: Tonge
+    Position: {x: -0.28534636, y: -0.062289733, z: 0.0000001699489}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Bottom 0 L
+    Position: {x: -0.40009758, y: -0.00293396, z: 0.04089972}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Bottom 0 R
+    Position: {x: -0.40009776, y: -0.0029335022, z: -0.04089974}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Bottom 1 L
+    Position: {x: -0.34003943, y: -0.005354614, z: 0.061053906}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Bottom 1 R
+    Position: {x: -0.34003937, y: -0.005354004, z: -0.061053913}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Upper 0 L
+    Position: {x: 0.18534881, y: 0.48874968, z: 0.046103153}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Upper 0 R
+    Position: {x: 0.18534881, y: 0.48874998, z: -0.04610045}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Upper 1 L
+    Position: {x: 0.16775192, y: 0.3929692, z: 0.0668433}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xLip Upper 1 R
+    Position: {x: 0.16775192, y: 0.39296967, z: -0.06684111}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: xNose
+    Position: {x: 0.07319321, y: 0.4495633, z: -0.0000000581982}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Clavicle
+    Position: {x: -0.11346855, y: 0.14088494, z: 0.0049090106}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R UpperArm
+    Position: {x: -0.24335599, y: -0.00000015258789, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Forearm
+    Position: {x: -0.62027115, y: 0, z: -0.000000057220458}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Hand
+    Position: {x: -0.39502627, y: 0, z: 0.000000019073486}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Finger0
+    Position: {x: -0.07642755, y: -0.1311158, z: -0.008934669}
+    Scale: {x: 1, y: 1, z: 1}
+  - name: R Finger01
+    Position: {x: -0.07750855, y: 0.0000000047683715, z: -0.000000038146972}
+    Scale: {x: 1, y: 1, z: 1}

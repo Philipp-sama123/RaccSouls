@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5144541265817866818
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1091396123883334, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_Name
+      value: Bear Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414554372619452, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: Mode_Tabs1
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: Ability_Tabs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: Editor_Tabs1
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: Editor_Tabs2
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: SelectedMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: modes.Array.data[2].Input
+      value: Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: modes.Array.data[2].DefaultIndex.ConstantValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: modes.Array.data[2].m_AbilityIndex.ConstantValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: OnSprintEnabled.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: OnSprintEnabled.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: modes.Array.data[2].Abilities.Array.data[3].Input.ConstantValue
+      value: Roar
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: OnSprintEnabled.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: set_Value
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: OnSprintEnabled.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MalbersAnimations.BoolVarListener, MalbersAnimations
+      objectReference: {fileID: 0}
+    - target: {fileID: 114313270682629158, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: OnSprintEnabled.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114829077849672884, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: stats.Array.data[0].EditorTabs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7966057636875514513, guid: 91924c21c1a7ba04182e648ad1fc2401,
+        type: 3}
+      propertyPath: debug
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 91924c21c1a7ba04182e648ad1fc2401, type: 3}
