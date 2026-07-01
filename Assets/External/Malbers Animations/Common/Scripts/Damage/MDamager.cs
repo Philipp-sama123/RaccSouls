@@ -366,6 +366,7 @@ namespace MalbersAnimations.Controller
 
             var HitEffect = this.HitEffect;
             var hitSound = this.hitSound;
+            EffectType pooledSurfaceEffect = null;
 
             //Find Hit Effects and Sounds
             if (damagee != null && hitEffects != null)
@@ -374,7 +375,11 @@ namespace MalbersAnimations.Controller
 
                 if (eff != null)
                 {
-                    if (eff.effect.Value != null) HitEffect = eff.effect.Value;//Use the Effect from the List
+                    if (eff.effect.Value != null)
+                    {
+                        pooledSurfaceEffect = eff;
+                        HitEffect = eff.effect.Value;//Use the Effect from the List
+                    }
 
                     // if (eff.sound != null) hitSound = eff.sound; //use the sound form the list
                 }
@@ -382,7 +387,15 @@ namespace MalbersAnimations.Controller
 
             if (HitEffect != null)
             {
-                if (HitEffect.IsPrefab())
+                if (pooledSurfaceEffect != null)
+                {
+                    var instance = pooledSurfaceEffect.Play(HitPosition, HitRotation);
+                    CheckHitEffect(instance);
+
+                    var releaseDelay = DestroyHitEffect > 0 ? DestroyHitEffect : 2f;
+                    StartCoroutine(ReleaseSurfaceEffect(pooledSurfaceEffect, instance, releaseDelay));
+                }
+                else if (HitEffect.IsPrefab())
                 {
                     var instance = Instantiate(HitEffect, HitPosition, HitRotation);
                     // instance.transform.parent = col.transform;
@@ -404,6 +417,16 @@ namespace MalbersAnimations.Controller
                 PlaySound(hitSound.Value);
 
             OnHit.Invoke(col.transform);
+        }
+
+        private IEnumerator ReleaseSurfaceEffect(EffectType surfaceEffect, GameObject instance, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+
+            if (surfaceEffect != null && instance != null)
+            {
+                surfaceEffect.Release(instance);
+            }
         }
 
         //Check if the Hit Effect has a MDamager so pass the Layer and Owner (E.g. Explosions)
